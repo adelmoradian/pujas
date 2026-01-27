@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: EU2026 - Yogis
+title: Pujas
 
 module:
   imports:
@@ -15,18 +15,6 @@ languages:
     languageName: English
     weight: 2
     contentDir: content/en
-  es:
-    languageName: Español
-    weight: 3
-    contentDir: content/es
-  fr:
-    languageName: Français
-    weight: 4
-    contentDir: content/fr
-  pt:
-    languageName: Portuguesa
-    weight: 5
-    contentDir: content/pt
 
 
 markup:
@@ -41,25 +29,12 @@ markup:
 
 menu:
   main:
-    - name: Routes
-      pageRef: /routes
+    - name: Protocols
+      pageRef: /protocols
       weight: 1
-    - name: Meeting Notes
-      pageRef: /meetings
-      weight: 2
-    - name: Registration Form
-      weight: 3
-      url: https://forms.gle/4dEDEqQBJ1jzMmtS9
-    - name: Supporting The Project
-      weight: 4
-      pageRef: /support
-    - name: Tour Video
-      weight: 5
-      url: https://www.youtube.com/watch?app=desktop&v=2Tu3f41aVYA
-    - name: Cabella Presentation
-      weight: 6
-      url: https://www.youtube.com/live/LBA2kEM0LvI?si=hM827WYvUdK_rtfk&t=2027
-
+    - name: Meeting notes
+      pageRef: /notes
+      weight: 1
 
 params:
   navbar:
