@@ -27,15 +27,15 @@ markup:
   highlight:
     noClasses: false
 
-menu:
-  main:
-    - name: Protocols
-      pageRef: /protocols
-      weight: 1
-    - name: Meeting notes
-      pageRef: /notes
-      weight: 1
-
+# menu:
+#   main:
+#     - name: Protocols
+#       pageRef: /protocols
+#       weight: 1
+#     - name: Meeting notes
+#       pageRef: /notes
+#       weight: 1
+#
 params:
   navbar:
     displayTitle: true
